@@ -11,3 +11,7 @@ opt.tabstop = 4
 opt.colorcolumn = "80"
 opt.swapfile = false
 opt.backup = false
+opt.conceallevel = 0
+
+vim.cmd([[highlight LineNr guifg=#bfdbf7]])
+vim.cmd([[highlight CursorLineNr guifg=#e1e5f2]])
