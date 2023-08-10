@@ -11,6 +11,7 @@ opt.tabstop = 4
 opt.colorcolumn = "80"
 opt.swapfile = false
 opt.backup = false
+opt.autochdir = false
 -- opt.list = false
 
 -- vim.cmd([[highlight LineNr guifg=#bfdbf7]])
