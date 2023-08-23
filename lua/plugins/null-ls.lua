@@ -3,9 +3,9 @@ return {
   dependencies = { "mason.nvim" },
   opts = function(_, opts)
     local nls = require("null-ls")
-    nls.setup({
-      -- debug = true
-    })
-    -- table.insert(opts.sources, nls.builtins.formatting.prettierd)
+    -- nls.setup({
+    -- debug = true
+    -- })
+    table.insert(opts.sources, nls.builtins.formatting.prettierd)
   end,
 }
