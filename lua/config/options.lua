@@ -12,7 +12,8 @@ opt.colorcolumn = "80"
 opt.swapfile = false
 opt.backup = false
 opt.autochdir = false
--- opt.list = false
+-- opt.listchars = { tab = "", trail = "·", nbsp = "␣" }
+opt.list = false
 
 -- vim.cmd([[highlight LineNr guifg=#bfdbf7]])
 -- vim.cmd([[highlight CursorLineNr guifg=#e1e5f2]])
