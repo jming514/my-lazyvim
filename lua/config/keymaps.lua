@@ -27,3 +27,6 @@ map("n", "<leader>3", '<cmd>lua require("harpoon.ui").nav_file(3)<cr>', { desc =
 map("n", "<leader>4", '<cmd>lua require("harpoon.ui").nav_file(4)<cr>', { desc = "navigate to file 4" })
 -- Telescope
 map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Telescope grep" })
+
+-- No-Neck-Pain
+map("n", "<leader>n", "<cmd>NoNeckPain<cr>", { desc = "NoNeckPain toggle" })
