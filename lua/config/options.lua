@@ -15,7 +15,8 @@ opt.autochdir = false
 -- opt.listchars = { tab = "", trail = "·", nbsp = "␣" }
 opt.list = false
 opt.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
-opt.foldlevelstart = 99
+opt.fillchars = "eob: ,fold: ,foldopen:,foldsep: ,foldclose:"
+-- opt.foldlevelstart = 99
 opt.foldenable = true
 opt.foldcolumn = "1"
 
