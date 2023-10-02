@@ -2,8 +2,7 @@ return {
   -- { "rose-pine/neovim" },
   -- { "catppuccin/nvim" },
   {
-    -- "folke/tokyonight.nvim",
-    -- "~/code/ppyclone"
+    "folke/tokyonight.nvim",
     "rebelot/kanagawa.nvim",
     "jming514/clrs",
     opts = {
@@ -17,7 +16,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "lush_template",
+      colorscheme = "tokyonight",
     },
   },
 }
