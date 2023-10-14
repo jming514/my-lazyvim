@@ -5,6 +5,8 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.g.autoformat = true
+
 local opt = vim.opt
 
 opt.tabstop = 4
