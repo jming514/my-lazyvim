@@ -4,7 +4,7 @@ return {
   {
     "folke/tokyonight.nvim",
     "rebelot/kanagawa.nvim",
-    "jming514/clrs",
+    -- "jming514/clrs",
     opts = {
       -- transparent = true,
       -- styles = {
