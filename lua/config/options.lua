@@ -10,7 +10,7 @@ vim.g.autoformat = true
 local opt = vim.opt
 
 opt.tabstop = 4
-opt.colorcolumn = "80"
+-- opt.colorcolumn = "80"
 opt.swapfile = false
 opt.backup = false
 opt.autochdir = false
