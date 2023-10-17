@@ -15,11 +15,11 @@ return {
       ["<Tab>"] = nil,
       ["<S-Tab>"] = nil,
       ["<C-e"] = nil,
-      -- ["<C-y>"] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
-      ["<CR>"] = cmp.mapping.confirm({
-        behavior = cmp.ConfirmBehavior.Replace,
-        select = false,
-      }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+      ["<C-y>"] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+      -- ["<CR>"] = cmp.mapping.confirm({
+      --   behavior = cmp.ConfirmBehavior.Replace,
+      --   select = true,
+      -- }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
     })
   end,
 }
