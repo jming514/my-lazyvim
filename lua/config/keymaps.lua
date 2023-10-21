@@ -30,3 +30,4 @@ map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Telescope grep"
 
 -- No-Neck-Pain
 map("n", "<leader>n", "<cmd>NoNeckPain<cr>", { desc = "NoNeckPain toggle" })
+map("n", "<leader>zz", "<cmd>ZenMode<cr>", { desc = "ZenMode toggle" })
