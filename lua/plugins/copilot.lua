@@ -1,4 +1,4 @@
 return {
-  "zbirenbaum/copilot.lua",
-  keys = {},
+  --   "zbirenbaum/copilot.lua",
+  --   keys = {},
 }
