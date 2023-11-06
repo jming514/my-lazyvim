@@ -22,7 +22,7 @@ opt.fillchars = "eob: ,fold: ,foldopen:,foldsep: ,foldclose:"
 opt.foldenable = true
 -- opt.foldcolumn = "1"
 opt.colorcolumn = ""
-opt.cursorline = false
+-- opt.cursorline = false
 
 -- vim.cmd([[highlight LineNr guifg=#bfdbf7]])
 -- vim.cmd([[highlight CursorLineNr guifg=#e1e5f2]])
