@@ -50,6 +50,10 @@ return {
           },
         },
         biome = {},
+        templ = {
+          filetypes_include = { "templ" },
+          on_attach = on_attach,
+        },
       },
       inlay_hints = {
         enabled = true,
