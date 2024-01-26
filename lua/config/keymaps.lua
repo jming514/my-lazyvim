@@ -47,3 +47,8 @@ map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Telescope grep"
 -- No-Neck-Pain
 map("n", "<leader>n", "<cmd>NoNeckPain<cr>", { desc = "NoNeckPain toggle" })
 map("n", "<leader>zz", "<cmd>ZenMode<cr>", { desc = "ZenMode toggle" })
+
+-- Git
+map("n", "<leader>gb", "<cmd>Git blame<cr>", { desc = "Git blame" })
+map("n", "<leader>gh", "<cmd>0Gclog<cr>", { desc = "Git file history" })
+map("n", "<leader>gd", "<cmd>Gdiff<cr>", { desc = "Git diff" })
