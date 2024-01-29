@@ -17,6 +17,9 @@ local function map(mode, lhs, rhs, opts)
 end
 
 -- map("n", "gl", "<cmd>vim.diagnostics.open_float()<cr>", { desc = "Diagnostics open float" })
+-- Disabled keymaps
+map("n", "<S-h>", "")
+map("n", "<S-l>", "")
 
 local harpoon = require("harpoon")
 harpoon.setup()

@@ -31,6 +31,14 @@ return {
         gopls = {
           on_attach = on_attach,
         },
+        quick_lint_js = {
+          filetypes_include = {
+            "javascript",
+            "typescript",
+            "javascriptreact",
+            "typescriptreact",
+          },
+        },
         tsserver = {
           on_attach = function(client, bufnr)
             client.server_capabilities.documentFormattingProvider = false
