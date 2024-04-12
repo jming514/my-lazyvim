@@ -21,6 +21,8 @@ end
 map("n", "<S-h>", "")
 map("n", "<S-l>", "")
 
+-- map("n", "<leader>fe", "<cmd>LazyFormat<cr>", { desc = "Format file" })
+
 local harpoon = require("harpoon")
 harpoon.setup()
 
@@ -40,12 +42,15 @@ end, { desc = "navigate to file 3" })
 map("n", "<leader>4", function()
   harpoon:list():select(4)
 end, { desc = "navigate to file 4" })
+-- map("n", "<leader>5", function()
+--   harpoon:list():select(5)
+-- end, { desc = "navigate to file 5" })
 map("n", "<leader>fa", function()
-  harpoon:list():append()
+  harpoon:list():add()
 end, { desc = "Harpoon mark" })
 
 -- Telescope
-map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Telescope grep" })
+map("n", "<leader>fd", "<cmd>Telescope live_grep<cr>", { desc = "Telescope grep" })
 
 -- No-Neck-Pain
 map("n", "<leader>n", "<cmd>NoNeckPain<cr>", { desc = "NoNeckPain toggle" })

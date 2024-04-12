@@ -26,18 +26,10 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
-      -- autoformat = false,
+      autoformat = true,
       servers = {
         gopls = {
           on_attach = on_attach,
-        },
-        quick_lint_js = {
-          filetypes_include = {
-            "javascript",
-            "typescript",
-            "javascriptreact",
-            "typescriptreact",
-          },
         },
         tsserver = {
           on_attach = function(client, bufnr)

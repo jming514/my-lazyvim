@@ -6,7 +6,8 @@ return {
     -- "jming514/clrs",
     config = function()
       require("catppuccin").setup({
-        transparent_background = true,
+        transparent_background = false,
+        -- flavour = "latte",
       })
     end,
   },

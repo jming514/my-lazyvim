@@ -20,3 +20,4 @@ opt.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrea
 opt.fillchars = "eob: ,fold: ,foldopen:,foldsep: ,foldclose:"
 opt.foldenable = true
 opt.colorcolumn = ""
+opt.conceallevel = 2
