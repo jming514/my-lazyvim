@@ -52,6 +52,9 @@ end, { desc = "Harpoon mark" })
 -- Telescope
 map("n", "<leader>fd", "<cmd>Telescope live_grep<cr>", { desc = "Telescope grep" })
 
+-- Telescope File Browser
+map("n", "<space>fs", ":Telescope file_browser<CR>", { desc = "File Browser" })
+
 -- No-Neck-Pain
 map("n", "<leader>n", "<cmd>NoNeckPain<cr>", { desc = "NoNeckPain toggle" })
 map("n", "<leader>zz", "<cmd>ZenMode<cr>", { desc = "ZenMode toggle" })
