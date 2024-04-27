@@ -10,6 +10,7 @@ return {
       hijack_netrw_behavior = "open_current",
     },
     window = {
+      position = "float",
       mappings = {
         ["<space>"] = "none",
       },
