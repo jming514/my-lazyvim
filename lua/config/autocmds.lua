@@ -5,6 +5,7 @@ local function augroup(name)
   return vim.api.nvim_create_augroup("lazyvim_" .. name, { clear = true })
 end
 
+-- set the tabstop, shiftwidth, and expandtab for go files
 vim.api.nvim_create_autocmd("FileType", {
   group = augroup("golang indent"),
   pattern = { "go" },
@@ -15,4 +16,5 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+-- set the file type for templ files
 vim.cmd([[autocmd BufRead,BufNewFile *.templ setfiletype templ]])
